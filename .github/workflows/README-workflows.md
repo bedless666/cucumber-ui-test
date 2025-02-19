@@ -19,5 +19,3 @@ Workflow ini mengotomatiskan pengujian UI Web menggunakan Cucumber, Java, Gradle
 
     Status eksekusi dapat dilihat di GitHub Actions.
     Hasil pengujian disimpan sebagai artefak yang bisa diunduh.
-
-🚀 Dengan konfigurasi ini, pengujian berjalan otomatis setiap ada perubahan kode.
