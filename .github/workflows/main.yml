@@ -25,6 +25,9 @@ jobs:
       - name: Set up Gradle
         uses: gradle/gradle-build-action@v3
 
+      - name: Grant execute permission for Gradle
+        run: chmod +x gradlew
+
       - name: Run UI Web Tests
         run: ./gradlew test
 
@@ -33,4 +36,3 @@ jobs:
         with:
           name: test-results
           path: build/reports/
-
