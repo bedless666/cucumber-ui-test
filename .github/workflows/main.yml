@@ -28,8 +28,8 @@ jobs:
       - name: Run UI Web Tests
         run: ./gradlew test
 
-      - name: Upload Test Reports
-        uses: actions/upload-artifact@v3
-        with:
-          name: test-reports
-          path: build/reports
+      - name: Upload test results
+          uses: actions/upload-artifact@v4
+          with:
+            name: test-results
+            path: build/reports/
