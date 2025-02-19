@@ -2,6 +2,7 @@ GitHub Actions untuk Pengujian Otomatis
 📌 Deskripsi
 
 Workflow ini mengotomatiskan pengujian UI Web menggunakan Cucumber, Java, Gradle, dan Selenium. Setiap push atau pull request ke main akan memicu pengujian otomatis.
+
 🛠️ Cara Menggunakan
 
     Pastikan repository telah dikonfigurasi dengan framework pengujian yang sesuai.
